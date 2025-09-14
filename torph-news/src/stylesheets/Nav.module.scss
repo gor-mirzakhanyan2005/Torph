@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+@font-face{
+    font-family: "Monomaniac One";
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Monomaniac+One&display=swap');
+}
+
+.navBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid white;
+}
+
+.navUl{
+    background-color: #A30000;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 157px;
+}
+
+.navBtn{
+    font-family: "Monomaniac One";
+    width: 201px;
+    height: 83px;
+    font-size: 36px;
+    background-color: #A30000;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    border-top: none;
+    border-bottom: none;
+    color: white;
+    transition: 0.15s;
+}
+
+.navBtn:hover{
+    background: #fff;
+    border-color: #A30000;
+    color: #A30000;
+}
+
+.accountButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+    font-family: "Monomaniac One";
+    color: white;
+    font-size: 21.5px;
+}

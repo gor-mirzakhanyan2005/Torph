@@ -1,0 +1,292 @@
+.mainBg{
+    background-color: #FFFFFF;
+    height: 695.25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainFeatured{
+    background-color: #A30000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 1346px;
+    height: 582px;
+    margin-top: 55px;
+    gap: 60px;
+}
+
+.featuredText{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Monomaniac One";
+    gap: 55px;
+    h1{
+        font-size: 64px;
+        text-align: center;
+    }
+    p{
+        font-size: 24px;
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.trendingSection{
+    font-family: "Monomaniac One";
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        width: 88.45%;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        font-size: 96px;
+    }
+}
+
+.trendingList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 64px;
+}
+
+.trendingArticle{
+    font-family: "Monomaniac One";
+    color: white;
+    width: 410px;
+    height: 275px;
+    background-color: yellow;
+    transition: 0.15s;
+    .trendingFilter{
+        position: absolute;
+        background: #000000;
+        background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(253, 187, 45, 0) 100%);
+        width: 410px;
+        height: 275px;
+    }
+    h2{
+        margin-top: 150px;
+        position: absolute;
+        z-index: 2;
+        padding-left: 20px;
+        font-size: 32px;
+    }
+    p{
+        margin-top: 190px;
+        position: absolute;
+        z-index: 2;
+        padding-left: 20px;
+        width: 300px;
+        font-size: 16px;
+    }
+    img{
+        position: absolute;
+        width: 410px;
+        height: 275px;
+    }
+}
+
+.trendingArticle:hover{
+    box-shadow: 0px 8px 12px #000000;
+    transform: scale(105%);
+}
+
+.editorsPick{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editorsPickBg{
+    font-family: "Monomaniac One";
+    color: white;
+    background-color: #A30000;
+    height: 1243px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 96px;
+    }
+}
+
+.editorsArticle{
+    width: 805px;
+    height: 541px;
+    transition: 0.25s;
+    .editorsFilter{
+        position: absolute;
+        background: #000000;
+        background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(253, 187, 45, 0) 100%);
+        width: 805px;
+        height: 541px;
+        transition: 0.25s;
+    }
+    h2{
+        margin-top: 300px;
+        position: absolute;
+        z-index: 2;
+        padding-left: 20px;
+        font-size: 64px;
+    }
+    p{
+        margin-top: 390px;
+        position: absolute;
+        z-index: 2;
+        padding-left: 20px;
+        width: 800px;
+        font-size: 32px;
+    }
+    img{
+        position: absolute;
+        width: 805px;
+        height: 541px;
+    }
+}
+
+.editorsArticle:hover{
+    transform: scale(105%);
+    box-shadow: 0px 4px 8px #000000;
+}
+
+.worldRightNow{
+    margin-top: 200px;
+    font-family: "Monomaniac One";
+    width: 100%;
+    height: 1800px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        margin-top: -100px;
+        width: 999.15px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        font-size: 96px;
+    }
+    .newsArticles{
+        margin-top: 100px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 1000px;
+        .newsArticle{
+            color: white;
+            width: 410px;
+            height: 275px;
+            transition: 0.25s;
+            .newsFilter{
+                position: absolute;
+                background: #000000;
+                background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(253, 187, 45, 0) 100%);
+                width: 410px;
+                height: 275px;
+            }
+            h2{
+                position: absolute;
+                z-index: 2;
+                padding-left: 20px;
+                font-size: 18px;
+                width: 375px;
+                margin-top: 150px;
+            }
+            p{
+                position: absolute;
+                z-index: 2;
+                padding-left: 20px;
+                width: 400px;
+                font-size: 16px;
+                margin-top: 200px;
+            }
+            img{
+                position: absolute;
+                width: 410px;
+                height: 275px;
+            }
+        }
+        .newsArticle:hover{
+            transform: scale(105%);
+            box-shadow: 0px 4px 8px #000000;
+        }
+    }
+}
+
+.nearFutureList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 64px;
+}
+
+.nearFuture{
+    font-family: "Monomaniac One";
+    width: 100%;
+    height: 938px;
+    background-color: #A30000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 101px;
+    h1{
+        color: white;
+        font-size: 96px;
+    }
+    .nearFutureArticle{
+            color: white;
+            width: 410px;
+            height: 275px;
+            transition: 0.25s;
+            .nearFutureFilter{
+                position: absolute;
+                background: #000000;
+                background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(253, 187, 45, 0) 100%);
+                width: 410px;
+                height: 275px;
+            }
+            h2{
+                position: absolute;
+                z-index: 2;
+                padding-left: 20px;
+                font-size: 24px;
+                margin-top: 150px;
+                width: 350px;
+            }
+            p{
+                position: absolute;
+                z-index: 2;
+                padding-left: 20px;
+                width: 400px;
+                font-size: 16px;
+                margin-top: 200px;
+            }
+            img{
+                position: absolute;
+                width: 410px;
+                height: 275px;
+            }
+    }
+    .nearFutureArticle:hover{
+        transform: scale(105%);
+        box-shadow: 0px 4px 8px #000000;
+    }
+}

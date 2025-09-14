@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+@font-face{
+    font-family: "Monomaniac One";
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Monomaniac+One&display=swap');
+}
+
+.accountMenuBackground{
+    width: 100.5vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    backdrop-filter: brightness(50%);
+    font-family: "Monomaniac One";
+}
+
+.accountMenuBody{
+    background-color: #A30000;
+    height: 100vh;
+    width: 34vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+
+    .emailAndExit{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 50px;
+        gap: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .emailAndExit button{
+        width: 46px;
+        height: 46px;
+        border-radius: 25px;
+        border: 5px solid white;
+        background-color: black;
+        color: white;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    hr{
+        width: 28vw;
+        height: 5px;
+        background-color: black;
+        border: none;
+    }
+
+    h2{
+        margin-top: 20px;
+        color: white;
+        font-size: 32px;
+    }
+
+    .logoutButton{
+        font-family: "Monomaniac One";
+        margin-top: 80px;
+        width: 30vw;
+        height: 71px;
+        font-size: 24px;
+        background-color: black;
+        color: white;
+        border: 5px solid white;
+        border-radius: 50px;
+    }
+}

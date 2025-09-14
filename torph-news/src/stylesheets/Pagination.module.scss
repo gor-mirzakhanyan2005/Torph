@@ -1,0 +1,75 @@
+.pageButtonContainer{
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pageButtonContainerNearFuture{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.pageButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2.5px solid #A30000;
+    background-color: black;
+    color: #FFF;
+    transition: 0.25s;
+}
+
+.pageButton:hover{
+    transform: scale(125%);
+}
+
+.pageButtonActive{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2.5px solid #A30000;
+    background-color: #A30000;
+    color: #FFF;
+    transition: 0.25s;
+}
+
+.pageButtonActive:hover{
+    transform: scale(125%);
+}
+
+.pageButtonNF{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: black;
+    color: #FFF;
+    transition: 0.25s;
+}
+
+.pageButtonNF:hover{
+    transform: scale(125%);
+}
+
+.pageButtonNFActive{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2.5px solid #FFF;
+    background-color: #A30000;
+    color: #FFF;
+    transition: 0.25s;
+}
+
+.pageButtonNFActive:hover{
+    transform: scale(125%);
+}

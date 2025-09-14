@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+@font-face{
+    font-family: "Monomaniac One";
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Monomaniac+One&display=swap');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Libre+Barcode+39+Text&family=Monomaniac+One&display=swap');
+
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    h1{
+        font-size: 64px;
+        font-family: "Libre Barcode 39 Text";
+        width: 640px;
+    }
+    .footerNav{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        gap: 20px;
+        p{
+            font-family: "Monomaniac One";
+            font-size: 24px;
+            color: #FFFFFF;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
