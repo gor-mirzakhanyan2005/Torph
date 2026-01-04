@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from '../stylesheets/Footer.module.scss';
-import { useOutletContext } from 'react-router';
+import { useOutletContext, useNavigate } from 'react-router';
 
 const Footer = () => {
   const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact} = useOutletContext();
+  const navigate = useNavigate();
   return (
     <>
         <footer className={styles.footer}>
@@ -37,7 +38,9 @@ const Footer = () => {
                         <p>LEGACY ARTICLES</p>
                     </li>
                     <li>
-                        <p>PARTNERSHIPS</p>
+                        <p onClick={() => {
+                            navigate("/partnerships")
+                        }}>PARTNERSHIPS</p>
                     </li>
                     <li>
                         <p>DONATIONS</p>

@@ -11,6 +11,8 @@ import WhyUs from './components/WhyUs';
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import { AuthContextProvider } from './context/AuthContext';
 import {AccountContextProvider} from './context/AccountContext';
+import PartnerShips from './components/PartnerShips';
+import Donations from './components/Donations';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -28,6 +30,8 @@ root.render(
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />
               <Route path="/main" element={<Main />} />
+              <Route path="/partnerships" element={<PartnerShips />} />
+              <Route path="/donations" element={<Donations />} />
             </Route>
           </Routes>
         </BrowserRouter>

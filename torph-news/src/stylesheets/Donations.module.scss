@@ -1,0 +1,123 @@
+.donationBg{
+    background-color: #fff;
+    width: 100vw;
+    padding-bottom: 40px;
+}
+
+.donationHeader{
+    display: flex;
+    background-color: white;
+    height: 382px;
+    padding-left: 132px;
+    padding-right: 132px;
+}
+
+.donationLogo{
+    justify-self: start;
+    align-self: center;
+}
+
+.donationCallToAction{
+    width: 800px;
+    margin-left: 15.75vw;
+    font-family: "Monomaniac One";
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.donationCallToAction p{
+    justify-self: center;
+    align-self: center;
+}
+
+.donationCallToAction button{
+    align-self: end;
+    width: 230px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5BE0AB;
+    font-family: "Monomaniac One";
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.donationCardSection{
+    background-color: #DEDEDE;
+    width: 100vw;
+    height: 255vh;
+}
+
+.donationSectionList{
+    display: flex;
+    justify-content: center;
+    background-color: #DEDEDE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.donationSectionList li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donationCard{
+    width: 900px;
+    height: 422px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    z-index: 1;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    div{
+        font-family: "Monomaniac One";
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 36px;
+        }
+        p{
+            font-size: 24px;
+            width: 550px;
+        }
+    }
+}
+
+.slider{
+    width: 153.75px;
+    height: 421.15px;
+    margin-top: 1px;
+    margin-left: 740px;
+    position: absolute;
+    background-color: #5BE0AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Monomaniac One";
+    font-size: 48px;
+    color: #fff;
+    h2{
+        font-size: 48px;
+    }
+    transition: 0.2s ease-out;
+}
+
+.donationSectionList li:hover{
+    .slider{
+        transform: translate(157px);
+    }
+}

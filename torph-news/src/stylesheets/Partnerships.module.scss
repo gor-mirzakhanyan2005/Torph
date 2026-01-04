@@ -1,0 +1,123 @@
+.partnershipsBg{
+    width: 100vw;
+    height: 500vh;
+    background-color: black;
+    display: flex;
+    gap: 250px;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.partnershipsApplyContainer{
+    font-family: "Monomaniac One";
+    color: white;
+    width: 1000px;
+    height: 550px;
+    background-color: #A30000;
+    margin-top: 90px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 20px;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        align-self: center;
+        margin-top: 20px;
+        width: 80%;
+        font-size: 32px;
+    }
+    button{
+        background-color: black;
+        color: white;
+        font-family: "Monomaniac One";
+        font-size: 40px;
+        width: 27.5%;
+        height: 20%;
+        align-self: flex-end;
+        margin-top: 40px;
+        border-radius: 25px;
+        margin-right: 20px;
+        border: none;
+    }
+}
+
+.partnershipsTitleBg{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    h1{
+        font-family: "Monomaniac One";
+        color: white;
+        font-size: 90px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        background-color: #A30000;
+    }
+    .partnershipsCount{
+        font-family: "Monomaniac One";
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        height: 20vh;
+        width: 100%;
+        color: #FFF;
+        background-color: #6D0000;
+        h2{
+            margin-left: 100px;
+        }
+    }
+}
+
+.partnersList{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 98.5vw;
+    align-items: center;
+}
+
+.partnerCard{
+    display: flex;
+    flex-direction: row;
+    background: #A30000;
+    color: white;
+    height: 350px;
+    width: 950px;
+    align-items: center;
+    img{
+        width: 175px;
+        height: 175px;
+        margin-left: 50px;
+        border: 2px solid white;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 50px;
+        font-family: "Monomaniac One";
+        h2{
+            font-size: 48px;
+            color: #fff;
+        }
+        p{
+            font-size: 24px;
+            width: 500px
+        }
+    }
+}

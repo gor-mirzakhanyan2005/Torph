@@ -15,7 +15,7 @@ const AccountMenu = () => {
         <div className={styles.accountMenuBackground}>
           <div className={styles.accountMenuBody}>
             <div className={styles.emailAndExit}>
-              <h3>placeholder@phmail.com</h3>
+              <h3>{session.user.email}</h3>
               <button onClick={() => {
               setAccount(!account);
               document.body.style.overflow = "scroll";

@@ -14,6 +14,7 @@ function App() {
   const [whyUs, setWhyUs] = useState(false);
   const [aboutUs, setAboutUs] = useState(false);
   const [contact, setContact] = useState(false);
+  const [donations, setDonations] = useState(false);
 
   return (
     <>
