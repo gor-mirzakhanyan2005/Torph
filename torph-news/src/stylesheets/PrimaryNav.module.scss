@@ -30,6 +30,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        color: white;
+        font-size: 24px;
+        font-family: "Monomaniac One";
+        .greenNavLi{
+            cursor: pointer;
+            position: relative;
+        }
 }
 
 
@@ -53,4 +66,27 @@
 
 .redNavBg ul li:hover:after{
     transform: scaleX(1);
+}
+
+.greenNavLi{
+    cursor: pointer;
+    position: relative;
+}
+
+.greenNavLi:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: white;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease-out;
+}
+
+.greenNavBg ul li:hover:after{
+    transform: scaleX(1);
+}
 }

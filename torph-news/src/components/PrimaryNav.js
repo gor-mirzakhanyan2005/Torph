@@ -5,11 +5,11 @@ import Donations from './Donations';
 
 
 const PrimaryNav = () => {
-const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact} = useOutletContext();
+const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact, donations, setDonations} = useOutletContext();
   const navigate = useNavigate();
   return (
     <>
-        <div className={<Donations /> ? styles.greenNavBg : styles.redNavBg}>
+        <div className={donations ? styles.greenNavBg : styles.redNavBg}>
             <ul>
                 <li className={styles.redNavLi}>
                     <p>FIND/POST JOBS</p>
@@ -45,8 +45,9 @@ const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact} = useOutletCon
                 </li>
                 <li className={styles.redNavLi}>
                     <p onClick={() => {
-                        navigate("/donations")
-                    }}>DONATIONS</p>
+                        setDonations(false);
+                        navigate("/main")
+                    }}>HOME</p>
                 </li>
             </ul>
         </div>

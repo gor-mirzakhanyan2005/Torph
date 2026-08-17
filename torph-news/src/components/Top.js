@@ -7,13 +7,13 @@ import Contact from './Contact';
 import Donations from './Donations';
 
 const Top = () => {
-  const {whyUs, aboutUs, contact} = useOutletContext();
+  const {whyUs, aboutUs, contact, donations} = useOutletContext();
   return (
     <>
     {contact ? <Contact /> : null}
     {aboutUs ? <AboutUs/> : null}
     {whyUs ? <WhyUs/> : null}
-    <div className={<Donations /> ? styles.topBackgroundGreen : styles.topBackgroundRed}>
+    <div className={donations ? styles.topBackgroundGreen : styles.topBackgroundRed}>
         <h1>
             The Torph Times
         </h1>

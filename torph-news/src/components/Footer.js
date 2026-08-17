@@ -3,7 +3,7 @@ import styles from '../stylesheets/Footer.module.scss';
 import { useOutletContext, useNavigate } from 'react-router';
 
 const Footer = () => {
-  const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact} = useOutletContext();
+  const {whyUs, setWhyUs, aboutUs, setAboutUs, contact, setContact, donations, setDonations} = useOutletContext();
   const navigate = useNavigate();
   return (
     <>
@@ -43,7 +43,10 @@ const Footer = () => {
                         }}>PARTNERSHIPS</p>
                     </li>
                     <li>
-                        <p>DONATIONS</p>
+                        <p onClick={() => {
+                            setDonations(!donations);
+                            navigate("/donations");
+                        }}>DONATIONS</p>
                     </li>
                 </ul>
         </footer>
